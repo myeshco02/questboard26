@@ -1,0 +1,11 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# System
+.DS_Store
+Thumbs.db
+
+# npm (jeśli używasz npx serve)
+node_modules/
+package-lock.json

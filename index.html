@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuestBoard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo" data-link="#quests">⚔ QuestBoard</div>
+      <nav>
+        <a class="nav-link" data-link="#quests">Questy</a>
+        <a class="nav-link" data-link="#profile">Profil</a>
+        <a class="nav-link" data-link="#shop">Sklep</a>
+        <a class="nav-link" data-link="#regions">Regiony</a>
+        <a class="nav-link" data-link="#ranking">Ranking</a>
+        <a class="nav-link nav-admin" data-link="#admin">⚙ Zatwierdzanie</a>
+      </nav>
+      <div class="hero-badge" id="hero-badge">
+        <span id="header-hero-icon"></span>
+        <span id="header-hero-name"></span>
+        <span id="header-hero-gold" class="gold-text"></span>
+      </div>
+      <button id="logout-btn">Wyloguj</button>
+    </header>
+
+    <main id="app">
+      <!-- Widoki wstrzykiwane przez router -->
+    </main>
+
+    <div class="toast" id="toast"></div>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
